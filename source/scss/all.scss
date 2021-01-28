@@ -1,6 +1,10 @@
-$primary-color:green;
+@import "functions";
+@import "helpers/variables";
+@import "mixins";
+@import "bootstrap";
+// $primary-color:green;
 p{
-    color: $primary-color;
+    color: $primary;
 }
 h2{
     transform: translate(120deg);
